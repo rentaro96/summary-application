@@ -94,6 +94,9 @@
 			);
 			mainGroup = 05624C182DD06E680056A165;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				05624C7D2DD0C0270056A165 /* XCRemoteSwiftPackageReference "reductio" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 05624C222DD06E680056A165 /* Products */;
 			projectDirPath = "";
@@ -324,6 +327,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		05624C7D2DD0C0270056A165 /* XCRemoteSwiftPackageReference "reductio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fdzsergio/reductio.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 05624C192DD06E680056A165 /* Project object */;
 }

@@ -5,11 +5,8 @@
 //  Created by 鈴木廉太郎 on 2025/05/11.
 //
 
-import SwiftUI
+import Reductio
 
-
-class SummaryGenerator {
-    func summarize(text: String, completion: @escaping ([String]) -> Void) {
-        Reductio.summarize(text: text, ratio: 0.3, completion: completion)
-    }
+Reductio.summarize(text: "要約したい文章", ratio: 0.3) { summary in
+    print(summary)
 }
