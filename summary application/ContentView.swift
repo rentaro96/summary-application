@@ -11,10 +11,11 @@ struct ContentView: View {
     @State private var btnTapped = 0
     var body: some View {
         VStack {
+            //MenuView()
         //これがVStackで真ん中に揃える
             Button(action: {
                 btnTapped += 1
-                print("画像ボタンがタップされました")
+                print("ヘルプボタンがタップされました")
             }){
                Image("Help")
                     .resizable()
